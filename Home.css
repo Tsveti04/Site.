@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+}
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(backgroundRestaurant.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+ul {
+    float: right;
+    list-style-type: none;
+    margin-top: 40%;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 30px 120px;
+    border: 3px solid transparent;
+    transition: 0.5s ease;
+}
+
+ul li a:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.logo img {
+    float: left;
+    width: 142px;
+    height: auto;
+    margin-left: 2%;
+    margin-top: 2.5%;
+}
+
+.title h1 {
+    position: absolute;
+    left: 62%;
+    margin-top: 2.3%;
+    color: #FFF;
+    font-size: 480%;
+}
+
+.title h2 {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    text-decoration-line: underline;
+    text-decoration-thickness: 4px;
+    text-underline-offset: 7px;
+    font-size: 420%;
+    top: 5.70%;
+    left: 12%;
+}
+
+.information p {
+    position: absolute;
+    background-color: #FFF;
+    top: 40.70%;
+    left: 10%;
+}
+
+#Home {
+    font-size: 42px;
+}
+
+#History {
+    font-size: 42px;
+}
+
+@media screen and (max-width: 1024px) {
+    .logo {
+        position: relative;
+        width: 4%;
+        margin-top: 4%;
+        margin-left: 4%;
+    }
+    .information p {
+        position: absolute;
+        top: 10.70%;
+        left: 10%;
+    }
+    .title h1 {
+        font-size: 350%;
+        margin-left: auto;
+        top: 2.5%;
+    }
+    .title h2 {
+        font-size: 350%;
+        top: 3.05%;
+        left: 15%;
+    }
+}
